@@ -1,0 +1,52 @@
+en:
+  site_settings:
+    fixed_digest_enabled: "Enable fixed digest emails sitewide"
+
+  user_notifications:
+    fixed_digest:
+      why: "A brief summary of recent topics on the F&ES Discourse community server"
+      since_last_visit: "F&ES Discourse Digest"
+      friendly_title: "F&ES Discourse Digest"
+      new_topics: "Latest Topics List"
+      upd_topics: "Active Topics List"
+      new_content: "Latest Topics"
+      upd_content: "Active Topics"
+      unread_messages: "Unread Messages"
+      unread_notifications: "Unread Notifications"
+      liked_received: "Likes Received"
+      new_users: "New Users"
+      recent_topics: "Topic Excerpts"
+      follow_topic: "Follow this topic"
+      join_the_discussion: "Visit this topic on the website"
+      recent_posts: "Recent Posts"
+      more_new: "Recent Topics"
+
+      subject_template: "F&ES Discourse Digest"
+      site_help: "Site Help"
+      unsubscribe: "This summary is sent as a measure to reduce the number of emails to your inbox.  If you would like to cancel, change delivery times, or trim categories from the summary, please visit the %{site_help} category on Discourse for specific instructions."
+      your_email_settings: "your email settings"
+      click_here: "click here"
+      from: "%{site_name} summary"
+      preheader: "A brief summary of recent topics"
+      custom:
+        html:
+          header: ""
+          below_post_1: ""
+          below_post_2: ""
+          below_post_3: ""
+          below_post_4: ""
+          below_post_5: ""
+          above_recent_topics: ""
+          below_recent_topics: ""
+          above_footer: ""
+          below_footer: ""
+        text:
+          below_post_1: ""
+          below_post_2: ""
+          below_post_3: ""
+          below_post_4: ""
+          below_post_5: ""
+          above_recent_topics: ""
+          below_recent_topics: ""
+          above_footer: ""
+          below_footer: ""

@@ -1,0 +1,16 @@
+    <div class="controls fixed_digest_deliveries">
+      <label>{{i18n 'user.fixed_digest_deliveries.title'}}</label>
+      {{list-setting settingValue=model.custom_fields.fixed_digest_deliveries choices=deliveryChoices settingName='fixed_digest_deliveries'}}
+    </div>
+    <div class="instructions">{{i18n 'user.fixed_digest_deliveries.instructions'}}<br />
+    <ul>
+      <li>0900 => {{i18n 'fixed_digest_deliveries.0900'}}</li>
+      <li>1000 => {{i18n 'fixed_digest_deliveries.1000'}}</li>
+      <li>1100 => {{i18n 'fixed_digest_deliveries.1100'}}</li>
+      <li>1200 => {{i18n 'fixed_digest_deliveries.1200'}}</li>
+      <li>1300 => {{i18n 'fixed_digest_deliveries.1300'}}</li>
+      <li>1400 => {{i18n 'fixed_digest_deliveries.1400'}}</li>
+      <li>1500 => {{i18n 'fixed_digest_deliveries.1500'}}</li>
+      <li>1600 => {{i18n 'fixed_digest_deliveries.1600'}}</li>
+    </ul>
+    </div>
