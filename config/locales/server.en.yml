@@ -20,14 +20,13 @@ en:
       join_the_discussion: "Visit this topic on the website"
       recent_posts: "Recent Posts"
       more_new: "Recent Topics"
-
-      subject_template: "A brief summary of active topics"
+      subject_template: "A summary of active topics on the F&ES Discourse server"
       site_help: "Site Help"
       unsubscribe: "This summary is sent as a measure to reduce the number of emails to your inbox.  If you would like to cancel, change delivery times, or trim categories from the summary, please visit the %{site_help} category on Discourse for specific instructions."
       your_email_settings: "your email settings"
       click_here: "click here"
       from: "%{site_name} Digest"
-      preheader: "A brief summary of active topics"
+      preheader: "A summary of active topics on the F&ES Discourse server"
       custom:
         html:
           header: ""
