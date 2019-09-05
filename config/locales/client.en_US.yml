@@ -7,12 +7,3 @@ en_US:
       fixed_digest_deliveries:
         title: "Select hours of the day for your daily delivery schedule"
         instructions: "Type in the box and select hours of the day.  You may select multiple deliveries per day."
-      fixed_digest_timestrings:
-        "0900": "9:00a"
-        "1000": "10:00a"
-        "1100": "11:00a"
-        "1200": "12:00p"
-        "1300": "1:00p"
-        "1400": "2:00p"
-        "1500": "3:00p"
-        "1600": "4:00p"
