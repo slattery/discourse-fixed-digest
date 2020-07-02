@@ -368,7 +368,7 @@
         <div dir="<%= rtl? ? 'rtl' : 'ltr' %>" class='summary-footer' style="max-width:860px;">
           <%=raw(t 'user_notifications.fixed_digest.unsubscribe',
                    site_help: link_to(t('user_notifications.fixed_digest.site_help'), Discourse.base_url + '/c/site-help'),
-                   site_link: html_site_link(@anchor_color),
+                   site_link: html_site_link,
                    email_preferences_link: link_to(t('user_notifications.fixed_digest.your_email_settings'), Discourse.base_url + '/my/preferences/emails'),
                    unsubscribe_link: link_to(t('user_notifications.fixed_digest.click_here'), "#{Discourse.base_url}/email/unsubscribe/#{@unsubscribe_key}", {:style=>"color: ##{@anchor_color}"}))  %>
         </div>
