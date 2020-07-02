@@ -4,9 +4,9 @@ en:
 
   user_notifications:
     fixed_digest:
-      why: "A brief summary of recent topics on the F&ES Discourse community server"
-      since_last_visit: "F&ES Discourse Digest"
-      friendly_title: "F&ES Discourse Digest"
+      why: "A brief summary of recent topics on the YSE Discourse community server"
+      since_last_visit: "YSE Discourse Digest"
+      friendly_title: "YSE Discourse Digest"
       new_topics: "Latest Topics List"
       upd_topics: "Active Topics List"
       new_content: "Latest Topics"
@@ -20,13 +20,13 @@ en:
       join_the_discussion: "Visit this topic on the website"
       recent_posts: "Recent Posts"
       more_new: "Recent Topics"
-      subject_template: "A summary of active topics on the F&ES Discourse server"
+      subject_template: "A summary of active topics on the YSE Discourse server"
       site_help: "Site Help"
       unsubscribe: "This summary is sent as a measure to reduce the number of emails to your inbox.  If you would like to cancel, change delivery times, or trim categories from the summary, please visit the %{site_help} category on Discourse for specific instructions."
       your_email_settings: "your email settings"
       click_here: "click here"
       from: "%{site_name} Digest"
-      preheader: "A summary of active topics on the F&ES Discourse server"
+      preheader: "A summary of active topics on the YSE Discourse server"
       custom:
         html:
           header: ""
