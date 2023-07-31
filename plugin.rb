@@ -19,12 +19,12 @@ end
 after_initialize do
 
   register_editable_user_custom_field :fixed_digest_emails
-  register_editable_user_custom_field :fixed_digest_deliveries
+  # register_editable_user_custom_field :fixed_digest_deliveries
 
   User.register_custom_field_type 'fixed_digest_emails', :boolean
 
   DiscoursePluginRegistry.serialized_current_user_fields << 'fixed_digest_emails'
-  DiscoursePluginRegistry.serialized_current_user_fields << 'fixed_digest_deliveries'
+  # DiscoursePluginRegistry.serialized_current_user_fields << 'fixed_digest_deliveries'
 
   # add function to NotificationLevels in order to safely add to std discourse enum
   # once the function is bolted on, use it to add web_only level

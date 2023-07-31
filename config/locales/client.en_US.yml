@@ -4,6 +4,3 @@ en_US:
       fixed_digest_emails:
         title: "Send me email digests at fixed times"
         instructions: "This will include topics in categories that 1) you have access to and 2) have a personal notification setting of Normal"
-      fixed_digest_deliveries:
-        title: "Select hours of the day for your daily delivery schedule"
-        instructions: "Type in the box and select hours of the day.  You may select multiple deliveries per day."
