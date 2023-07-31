@@ -31,7 +31,7 @@ module Jobs
       if SiteSetting.must_approve_users?
         query = query.where("approved OR moderator OR admin")
       end
-      query.pluck('deliveries.user_id')
+      query.pluck('ok.user_id')
     end
 
   end
